@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.spark:spark-catalyst_2.10:1.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-catalyst_2.10/1.6.0/d365f955ecfedbf39b9f774bb547190e75c6ee8d/spark-catalyst_2.10-1.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-catalyst_2.10/1.6.0/ea22a15829f5b5b194b3e64745c7ad199db5e747/spark-catalyst_2.10-1.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

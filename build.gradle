@@ -1,0 +1,76 @@
+/* 插件 */
+apply plugin: 'java'
+/*管理版本用的*/
+apply from: 'dependencies.gradle'
+
+/*全局配置*/
+allprojects {
+    /*坐标*/
+    group 'com.kong'
+    version '1.0-SNAPSHOT'
+    /*自带插件*/
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'maven'
+    apply plugin: 'eclipse'
+    /*1.8环境*/
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+    /*UTF-8 很重要*/
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+        options.warnings = false
+    }
+}
+
+/** 子项目配置 */
+subprojects {
+    configurations {
+        provided
+        compile.extendsFrom provided
+        all*.exclude group: 'org.slf4j', module: 'slf4j-log4j12'
+    }
+    /*类库配置*/
+    repositories {
+        /**maven的私库
+        repositories { maven { url 'http://xxx/' } }
+        mavenLocal()*/
+        /*默认库*/
+        mavenCentral()
+    }
+    dependencies {
+
+    }
+    /*生成源码jar*/
+    task sourcesJar(type: Jar, dependsOn: classes) {
+        classifier = 'sources'
+        from sourceSets.main.allSource
+    }
+    /*生成javadoc的jar*/
+    task javadocJar(type: Jar, dependsOn: javadoc) {
+        classifier = 'javadoc'
+        from javadoc.destinationDir
+    }
+    /** 有时候会报错，但需要执行 */
+    task createREADME() {
+        file("README.md").createNewFile()
+    }
+    artifacts {
+        archives jar
+    }
+
+    /**上传maven仓库
+    uploadArchives {
+        repositories {
+            mavenDeployer {
+                snapshotRepository(url: "http://xxx/") {
+                   authentication(userName: "xxx", password: "xxx")
+                }
+                repository(url: "http://xxx/") {
+                    authentication(userName: "xxx", password: "xxx")
+                }
+            }
+        }
+    }
+     */
+}

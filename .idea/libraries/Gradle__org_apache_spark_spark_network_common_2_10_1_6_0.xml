@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.spark:spark-network-common_2.10:1.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-network-common_2.10/1.6.0/8f52bdb46eddf89dc20aaab32e603a0e7878720b/spark-network-common_2.10-1.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-network-common_2.10/1.6.0/f1337d9639d7f856378a637b228d21105424326f/spark-network-common_2.10-1.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

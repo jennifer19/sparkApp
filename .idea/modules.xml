@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hadoop-app/hadoop-app.iml" filepath="$PROJECT_DIR$/.idea/modules/hadoop-app/hadoop-app.iml" group="hadoop-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hadoop-app/hadoop-app_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hadoop-app/hadoop-app_main.iml" group="hadoop-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hadoop-app/hadoop-app_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hadoop-app/hadoop-app_test.iml" group="hadoop-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-app/spark-app.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-app/spark-app.iml" group="spark-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-app/spark-app_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-app/spark-app_main.iml" group="spark-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-app/spark-app_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-app/spark-app_test.iml" group="spark-app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkApp.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkApp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkApp_main.iml" group="sparkApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sparkApp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sparkApp_test.iml" group="sparkApp" />
+    </modules>
+  </component>
+</project>

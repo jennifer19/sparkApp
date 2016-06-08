@@ -1,0 +1,15 @@
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'org.apache.spark:spark-core_2.10:1.6.0'
+    compile 'org.apache.spark:spark-sql_2.10:1.6.0'
+    compile 'org.apache.spark:spark-hive_2.10:1.6.0'
+    compile 'org.apache.spark:spark-streaming_2.10:1.6.0'
+    compile 'org.apache.spark:spark-streaming-kafka_2.10:1.6.0'
+    compile 'org.apache.spark:spark-streaming-flume_2.10:1.6.0'
+    compile 'org.apache.spark:spark-graphx_2.10:1.6.0'
+    compile 'org.apache.spark:spark-mllib_2.10:1.6.0'
+    compile 'org.apache.hive:hive-jdbc:1.2.1'
+    compile 'org.apache.httpcomponents:httpclient:4.4.1'
+    compile 'org.apache.httpcomponents:httpcore:4.4.1'
+    compile 'mysql:mysql-connector-java:5.1.35'
+}

@@ -1,0 +1,6 @@
+configure(allprojects) { project ->
+    ext.mysqlConnectorVersion="5.1.26"
+    ext.dubboVersion="2.5.3"
+    ext.dubboZKClientVersion="0.4"
+    ext.freemarkerVersion="2.3.20"
+}

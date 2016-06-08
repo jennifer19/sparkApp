@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.spark:spark-mllib_2.10:1.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-mllib_2.10/1.6.0/2034fadc1e32d4e693aebc995e150d47309a1c89/spark-mllib_2.10-1.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-mllib_2.10/1.6.0/9861a7fe0ec789ff70c06b10d38d0e0250eb4447/spark-mllib_2.10-1.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

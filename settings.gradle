@@ -1,0 +1,4 @@
+rootProject.name = 'sparkApp'
+include 'spark-app'
+include 'hadoop-app'
+
